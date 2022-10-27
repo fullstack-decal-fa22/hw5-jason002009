@@ -1,4 +1,4 @@
-import {_________} from "react";
+import react from "react";
 import axios from "axios";
 
 const NewPost = ({ _________ }) => {
@@ -13,7 +13,7 @@ const NewPost = ({ _________ }) => {
       body
     })
 
-    axios.post(_________, _________).then(_________);
+    axios.post(url, data).then((response) => console.log(response));
   }
 
   return <div>
